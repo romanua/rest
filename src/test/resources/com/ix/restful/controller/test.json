@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+      "string": "Aliens are watching up in the sky",
+      "longestWord": 8
+    },
+    {
+      "string": "Sound boy process to blast into the galaxy",
+      "longestWord": 7
+    },
+    {
+      "string": "Sound boy proceed to blast into the galaxy",
+      "longestWord": 7
+    },
+    {
+      "string": "Hear it all the time, come back rewind",
+      "longestWord": 6
+    },
+    {
+      "string": "Go back rocket man into the sky you'll see",
+      "longestWord": 6
+    }
+  ]
+}

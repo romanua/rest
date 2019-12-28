@@ -13,7 +13,7 @@ public class MainRESTController {
     @Autowired
     private StringsService stringsService;
 
-    @RequestMapping(value = "/post", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/post", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public MaxString getMaxStrings(@RequestBody Strings strings) {
 
         return stringsService.maxWord(strings);
